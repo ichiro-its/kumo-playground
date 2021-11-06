@@ -1,0 +1,29 @@
+{
+  "name": "Kumo App Example",
+  "short_name": "Kumo App Example",
+  "description": "Example of Kumo App React component library",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "64x64",
+      "purpose" : "any maskable"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose" : "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose" : "any maskable"
+    }
+  ]
+}
