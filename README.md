@@ -11,7 +11,7 @@ Install app dependencies using `npm i` from the react app root.
 
 ## Making ROS2 Nodes with kumo-app
 
-###`NodeProvider`
+### `NodeProvider`
 `nodeName`: name of the ROS2 node.
 
 you can make your ROS2 publisher, subscriber, client, or service inside of `nodeProvider`.
