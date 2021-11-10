@@ -14,22 +14,26 @@ Install app dependencies using `npm i` from the react app root.
 ### `NodeProvider`
 `nodeName`: name of the ROS2 node.
 
-you can make your ROS2 publisher, subscriber, client, or service inside of `nodeProvider`.
+you can make your ROS2 publisher, subscriber, client, or service inside of `nodeProvider`.  
 
 ### `PublisherProvider`
-`messageType`: type of the ROS2 message.
-`topicName`: name of the ROS2 topic.
+Attributes:
+- `messageType`: type of the ROS2 message.  
+- `topicName`: name of the ROS2 topic.
 
 ### `SubscriptionProvider`
-`messageType`: type of the ROS2 message.
-`topicName`: name of the ROS2 topic.
-`callback`: function on receive message.
+Attributes:
+- `messageType`: type of the ROS2 message.  
+- `topicName`: name of the ROS2 topic.  
+- `callback`: function on receive message.
 
 ### `ClientProvider`
-`serviceType`: type of the ROS2 service.
-`serviceName`: name of the ROS2 service
+Attributes:
+- `serviceType`: type of the ROS2 service.  
+- `serviceName`: name of the ROS2 service.
 
 ### `ServiceProvider`
-`serviceType`: type of the ROS2 service.
-`serviceName`: name of the ROS2 service
-`callback`: function on service call.
+Attributes:
+- `serviceType`: type of the ROS2 service.  
+- `serviceName`: name of the ROS2 service.  
+- `callback`: function on service call.
