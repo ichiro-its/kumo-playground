@@ -21,19 +21,23 @@ Attributes:
 - `messageType`: type of the ROS2 message.  
 - `topicName`: name of the ROS2 topic.
 
+to publish a message, use `publish()` method from `usePublisher` with the message object as a parameter.
+
 ### `SubscriptionProvider`
 Attributes:
 - `messageType`: type of the ROS2 message.  
 - `topicName`: name of the ROS2 topic.  
-- `callback`: function on receive message.
+- `callback`: function on receive message, returns the received message.
 
 ### `ClientProvider`
 Attributes:
 - `serviceType`: type of the ROS2 service.  
 - `serviceName`: name of the ROS2 service.
 
+to call a service, use `call()` method from `useClient` with the service object as a parameter.
+
 ### `ServiceProvider`
 Attributes:
 - `serviceType`: type of the ROS2 service.  
 - `serviceName`: name of the ROS2 service.  
-- `callback`: function on service call.
+- `callback`: function on service call, returns request message.
