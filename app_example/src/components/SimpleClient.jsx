@@ -100,7 +100,7 @@ function SimpleClient() {
       <NodeProvider nodeName="simple_client">
         <ClientProvider
           serviceType="example_interfaces/srv/AddTwoInts"
-          serviceName="/add_two_ints"
+          serviceName="/frontend_add_two_ints"
         >
           <RequestForm />
         </ClientProvider>

@@ -75,7 +75,10 @@ function SimplePublisher() {
   return (
     <TitledCard title="Simple Publisher Node" raised>
       <NodeProvider nodeName="simple_publisher">
-        <PublisherProvider messageType="std_msgs/msg/String" topicName="/topic">
+        <PublisherProvider
+          messageType="std_msgs/msg/String"
+          topicName="/frontend_topic"
+        >
           <PublishForm />
         </PublisherProvider>
       </NodeProvider>
